@@ -22,9 +22,9 @@ from PyQt6.QtCore import Qt
 
 import rpack
 
-from beeref import commands
-from beeref.items import item_registry
-from beeref.selection import MultiSelectItem, RubberbandItem
+import commands
+from items import item_registry
+from selection import MultiSelectItem, RubberbandItem
 
 
 logger = logging.getLogger(__name__)

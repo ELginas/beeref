@@ -19,9 +19,9 @@ import os.path
 from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtCore import Qt
 
-from beeref import constants
-from beeref.config import logfile_name, BeeSettings
-from beeref.main_controls import MainControlsMixin
+import constants
+from config import logfile_name, BeeSettings
+from main_controls import MainControlsMixin
 
 
 logger = logging.getLogger(__name__)

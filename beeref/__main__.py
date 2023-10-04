@@ -22,11 +22,11 @@ import sys
 
 from PyQt6 import QtCore, QtWidgets
 
-from beeref import constants
-from beeref.assets import BeeAssets
-from beeref.config import CommandlineArgs, BeeSettings, logfile_name
-from beeref.utils import create_palette_from_dict
-from beeref.view import BeeGraphicsView
+import constants
+from assets import BeeAssets
+from config import CommandlineArgs, BeeSettings, logfile_name
+from utils import create_palette_from_dict
+from view import BeeGraphicsView
 
 logger = logging.getLogger(__name__)
 

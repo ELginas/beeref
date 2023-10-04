@@ -18,9 +18,9 @@ import logging
 from PyQt6 import QtCore, QtGui
 from PyQt6.QtCore import Qt
 
-from beeref import commands
-from beeref.items import BeePixmapItem
-from beeref import fileio
+import commands
+from items import BeePixmapItem
+import fileio
 
 
 logger = logging.getLogger(__name__)

@@ -22,9 +22,9 @@ import logging
 from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtCore import Qt
 
-from beeref import commands
-from beeref.constants import COLORS
-from beeref.selection import SelectableMixin
+import commands
+from constants import COLORS
+from selection import SelectableMixin
 
 
 logger = logging.getLogger(__name__)

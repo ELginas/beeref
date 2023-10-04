@@ -22,7 +22,7 @@ from PyQt6 import QtGui, QtWidgets
 from .actions import actions
 from .menu_structure import menu_structure, MENU_SEPARATOR
 
-from beeref.config import KeyboardSettings
+from config import KeyboardSettings
 
 
 class ActionsMixin:

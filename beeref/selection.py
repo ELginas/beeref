@@ -22,11 +22,11 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QGraphicsItem
 
-from beeref.assets import BeeAssets
-from beeref import commands
-from beeref.config import CommandlineArgs
-from beeref.constants import COLORS
-from beeref import utils
+from assets import BeeAssets
+import commands
+from config import CommandlineArgs
+from constants import COLORS
+import utils
 
 
 commandline_args = CommandlineArgs()

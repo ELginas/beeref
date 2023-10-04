@@ -21,15 +21,15 @@ import os.path
 from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtCore import Qt
 
-from beeref.actions import ActionsMixin
-from beeref import commands
-from beeref.config import CommandlineArgs, BeeSettings
-from beeref import constants
-from beeref import fileio
-from beeref import widgets
-from beeref.items import BeePixmapItem, BeeTextItem
-from beeref.main_controls import MainControlsMixin
-from beeref.scene import BeeGraphicsScene
+from actions import ActionsMixin
+import commands
+from config import CommandlineArgs, BeeSettings
+import constants
+import fileio
+import widgets
+from items import BeePixmapItem, BeeTextItem
+from main_controls import MainControlsMixin
+from scene import BeeGraphicsScene
 
 
 commandline_args = CommandlineArgs()
@@ -630,7 +630,7 @@ class BeeGraphicsView(MainControlsMixin,
         event.accept()
 
     def mousePressEvent(self, event):
-        if (event.button() == Qt.MouseButton.MiddleButton
+        if (event.button() == Qt.MouseButton.LeftButton
                 and event.modifiers() == Qt.KeyboardModifier.ControlModifier):
             self.zoom_active = True
             self.event_start = event.position()

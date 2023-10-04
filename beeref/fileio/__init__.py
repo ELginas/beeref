@@ -17,11 +17,11 @@ import logging
 
 from PyQt6 import QtCore
 
-from beeref import commands
-from beeref.fileio.errors import BeeFileIOError
-from beeref.fileio.image import load_image
-from beeref.fileio.sql import SQLiteIO, is_bee_file
-from beeref.items import BeePixmapItem
+import commands
+from fileio.errors import BeeFileIOError
+from fileio.image import load_image
+from fileio.sql import SQLiteIO, is_bee_file
+from items import BeePixmapItem
 
 
 __all__ = [

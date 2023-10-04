@@ -33,8 +33,8 @@ import tempfile
 
 from PyQt6 import QtGui
 
-from beeref import constants
-from beeref.items import BeePixmapItem
+import constants
+from items import BeePixmapItem
 from .errors import BeeFileIOError
 from .schema import SCHEMA, USER_VERSION, MIGRATIONS, APPLICATION_ID
 
